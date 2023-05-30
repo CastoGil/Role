@@ -1,0 +1,42 @@
+{
+  "name": "desafio3",
+  "version": "1.0.0",
+  "description": "Se modifico el login principal donde se ingresa por la ruta api/products.. se creo un nuevo modelo de usuario.. en la ruta auth/login tienes la opcion de ingresar con la plataforma de github y te creara el token con el usuario.. si no te puedes registrar auth/register y completar los campos .. ingresas al login y te redirecciona a la pagina principal con el nombre del usuario y el rol.. se modifico la parte del Front.. se agrego la ruta auth/current donde te devuelve la respuesta del usuario logueado en json...",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-compression": "^1.0.2",
+    "express-handlebars": "^6.0.7",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2",
+    "mongoose-paginate-v2": "^1.7.1",
+    "nodemailer": "^6.9.2",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-github2": "^0.1.12",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.5.4",
+    "toastify-js": "^1.12.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "handlebars": "^4.5.0"
+  }
+}
